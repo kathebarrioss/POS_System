@@ -2,11 +2,6 @@ package food;
 
 public class Apple {
 
-    //----------------------------------------------------------
-    // Instant variables
-    //----------------------------------------------------------
-    // YOUR CODE HERE
-
     private String type;
     private double weight;
     private double pricePreUnitWeight;
@@ -20,11 +15,6 @@ public class Apple {
         this.type = type;
         this.pricePreUnitWeight = pricePreUnitWeight;
     }
-
-    //----------------------------------------------------------
-    // Setters and Getters
-    // IMPORTANT: match the UML Diagram
-    //----------------------------------------------------------
 
     public String getType(){
         return type;
@@ -59,6 +49,3 @@ public class Apple {
     }
 
 }//end of class
-
-
-
